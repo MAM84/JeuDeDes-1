@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Jeu de dé : #1</title>
+    <title>MARION METAIS</title>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1>Jeu de dé à 6 faces : tirage au hasard avec un bouton</h1>
+    <p>Appuyez sur le bouton pour générer aléatoirement un nombre compris entre 1 et 6.</p>
+    <div class="container">
+      <div class="button-position">
+          <button class="button" onclick="myValueDice()">Lancé du dé</button>
+      </div>
+      <p class="titre" id="nb-dice"> </p>
+    </div>
+    <p id="list-value-dice"> </p>
+    <div class="button-position">
+      <p id="button-appear"> </p>
+      <p id="results"> </p>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
